@@ -12,7 +12,6 @@
         If txtuser.Text <> "" And txtcodigo.Text <> "" Then
             Try
                 If recuperarcontraseña(txtuser.Text, txtcodigo.Text) = True Then
-                    Dim contraseña As String
 
                     MsgBox("Exito", MsgBoxStyle.Information, Title:="Sistema Biblioteca")
 

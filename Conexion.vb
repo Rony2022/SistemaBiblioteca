@@ -68,7 +68,7 @@ Module Conexion
     Function recuperarcontraseña(ByVal nombreUsuario As String, ByVal id As Integer) As String
         Dim resultado As String = ""
         Try
-            enunciado = New SqlCommand("Select Contraseña from Usuarios where NombreUsuario='" & nombreUsuario & "' and IdUsuario=1", conexion)
+            enunciado = New SqlCommand("Select Contraseña from Usuarios where NombreUsuario='" & nombreUsuario & "' and IdUsuario'" & id, conexion)
             respuesta = enunciado.ExecuteReader
 
             If respuesta.Read Then
