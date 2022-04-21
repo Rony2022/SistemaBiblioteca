@@ -23,18 +23,19 @@ Partial Class Recuperacion
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Recuperacion))
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnacceder = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnacceder
         '
-        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(228, 306)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(116, 50)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Acceder"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnacceder.BackgroundImage = CType(resources.GetObject("btnacceder.BackgroundImage"), System.Drawing.Image)
+        Me.btnacceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnacceder.Location = New System.Drawing.Point(245, 318)
+        Me.btnacceder.Name = "btnacceder"
+        Me.btnacceder.Size = New System.Drawing.Size(116, 38)
+        Me.btnacceder.TabIndex = 0
+        Me.btnacceder.Text = "Acceder"
+        Me.btnacceder.UseVisualStyleBackColor = True
         '
         'Recuperacion
         '
@@ -43,7 +44,7 @@ Partial Class Recuperacion
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(597, 399)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnacceder)
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -54,5 +55,5 @@ Partial Class Recuperacion
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnacceder As Button
 End Class
