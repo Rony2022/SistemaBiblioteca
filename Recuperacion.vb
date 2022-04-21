@@ -9,6 +9,21 @@
     End Sub
 
     Private Sub btnacceder_Click(sender As Object, e As EventArgs) Handles btnacceder.Click
+        If txtuser.Text <> "" And txtcodigo.Text <> "" Then
+            Try
+                If recuperarcontraseña(txtcodigo.Text, txtuser.Text) = True Then
+                    Dim contraseña As String
 
+                    MsgBox("Exito", MsgBoxStyle.Information, Title:="Sistema Biblioteca")
+
+                Else
+                    MsgBox("no se encuentra registrado", MsgBoxStyle.OkCancel, Title:="Sistema Biblioteca")
+                End If
+            Catch ex As Exception
+                MsgBox(ex.ToString)
+            End Try
+        Else
+            MsgBox("Llene todos los campos para Acceder", MsgBoxStyle.Information, Title:="Sistema Biblioteca")
+        End If
     End Sub
 End Class
