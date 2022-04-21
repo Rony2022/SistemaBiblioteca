@@ -11,7 +11,7 @@
     Private Sub btnacceder_Click(sender As Object, e As EventArgs) Handles btnacceder.Click
         If txtuser.Text <> "" And txtcodigo.Text <> "" Then
             Try
-                If recuperarcontraseña(txtcodigo.Text, txtuser.Text) = True Then
+                If recuperarcontraseña(txtuser.Text, txtcodigo.Text) = True Then
                     Dim contraseña As String
 
                     MsgBox("Exito", MsgBoxStyle.Information, Title:="Sistema Biblioteca")
