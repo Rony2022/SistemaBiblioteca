@@ -58,6 +58,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAAOsAAADrASts18IAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
+        AAADjElEQVRYR71WXUgUURSeTCv6g6L/XnrpqSAk3V3T7I+ojaKn7UUEnVmXDDYxd+bOKtpQFL5Fjz4E
+        JT1VTykS9FDp7uxqEgSGD0IYoogh7u4oaWXTubNnZmd3R9PZ3T74mJlzzz3fd++de2eYfEOVpKIYK5Ql
+        OJ5NeIWWOCfUKlzgODYXDlQ4wZKGBCd8BapZZPlRhSU3MD2/mK4NbAORPpPgb+Bg3EvewjUCXMQ4Zbfq
+        92/GrrmDjlxhhTdYfEnh+A7lZmAfNmtI+Fr2wHK8N0x4+WfYlDviLO/XxWNe4SKG0zBXJx6B9gnDABCM
+        erDZPmD0xVBsKlmUCBhOA4qPo/BEaibIF0yxD8UrnsfCi7M1/p0YNpAhPk6fF3ytB+H+F40pDeQYptoD
+        jCJAC9GXDUMGrMSxiVE4YVjrxwo1GLKHhJc80ARY4SWGNKwmTgH5PZoBjm9mKoXQIWdQHnSKctRJwtcx
+        Z02AQjyK9GLon+IUEB9MtvMs4wqGb4O4mmJ4wCmEXJi7Kuhbj0Kzap20ZU3idEvCjqE5c5xYyrjEMEk3
+        kKRLlHucfPQo9rMEPVCg0ExSkLyCtf2WvLcWp4hz5D7mjKkMs8EwcK5zUnW1fcw08hPYVc4PHcD+WTAt
+        g0ZqYkVxlrghR9sBsB3rtaBuwP34h1rZ/jnTgM55hxjphPdlh9bJBNXnK4GC/boBOhMzt6Tt2KyBPite
+        od0Q5/jX2ugpdANVd0dUVzBiJW7mJNB3VnpXrHVGxBrFXWYTMAsLcIVvA3mB3wNFbwP2Tvmkrdg1ZaD6
+        3hgYGLQSteKoQ5TTjtLkTGjnwrRJzMxJxUsajZHr0A1cpkvQseISrETZSaJVWEqD6pE2zXPCBfg036Hn
+        BOz1JqWeP6N6PBsxJR05GqBcdgTlq1hu/ciDAdiyYQnLrR85GogDn1Q0y7ux3Pphw0AcDqmnLhK55vb3
+        5f5nY8PAQ+yaH9gwkKAfMOyeO+y8Aw4x/By75w7dwKVHinqq/ZMusgQcxXsr/ikn4WoskRt0A/BPoBdf
+        gBfMXSUO7ILTbgZjVhw56RsuwTL2AWJ+o2hQnjX/C8ABw5kEs0nkJky1j4o2+TBsqyHKchJK/0mU1CIQ
+        imYJpxijM4XZhYFDCJWB0HKGsEZtiVqj+zG1cACxrgxxaqj7dLB/L6YUFvSohX/F7yj+wUEGTmDT/0OF
+        KJc6g6Er+JgnMMxfSPBGNKF1Z2AAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAlgAAAGQCAYAAAByNR6YAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAu
