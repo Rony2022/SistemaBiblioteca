@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Formularios\Categorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Editoriales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Autores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Libros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Movimientos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Usuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\InicioEstudiante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\LibrosEstudiante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Paises.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Idiomas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\PrincipalEstudiante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\Recuperacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

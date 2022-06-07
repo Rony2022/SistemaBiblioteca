@@ -46,4 +46,9 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Datos\" />
+    <Folder Include="Logica\" />
+  </ItemGroup>
+
 </Project>
